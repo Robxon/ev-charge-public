@@ -1,0 +1,147 @@
+/* styles.css */
+/* @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(Poppins-Regular.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(Poppins-SemiBold.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.top-section {
+    background-color: #d3e8e5;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar,
+.notification-bell,
+.user-profile {
+    margin: 0 10px;
+}
+
+.sidebar-option {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar-option:hover {
+    background-color: #495057;
+}
+
+.main {
+    background-color: #f1f5f9;
+    min-height: 100vh;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+div[class^='mantine'],
+div[class*=' mantine'] {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.js-plotly-plot {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.app-container {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-section {
+    padding: 3%;
+}
+
+.active {
+    background-color: #495057 !important;
+}
+
+.cell-table {
+    width: 100%;
+}
+
+.form-label {
+    margin-bottom: 0px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    word-break: break-word;
+    cursor: default;
+}
+
+.input-group-text {
+    width: 4em;
+    justify-content: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+footer {
+    margin-top: auto;
+    border-top: 1px solid rgb(208, 208, 208);
+    color: rgba(32, 58, 94, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs-wrapper {
+    padding: 10px;
+    border: 1px solid #d9ebe5;
+    border-radius: 4px;
+}
+
+.inputs-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.result-card {
+    height: 100%;
+}
+
+.alert-container {
+    position: fixed;
+    bottom: 0;
+    right: 1rem;
+    width: 300px;
+    z-index: 999;
+}
+
+.alert {
+    --bs-alert-margin-bottom: 1rem
+}
